@@ -22,8 +22,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        val mBtnlogin = findViewById<View>(R.id.mBtnLogin) as Button
-        val mBtnregister = findViewById<View>(R.id.mBtnRegister) as Button
+        val mBtnlogin =  findViewById<View>(R.id.mBtnLogin) as Button
+        val mBtnregister =   findViewById<View>(R.id.mBtnRegister) as Button
 
         mBtnlogin.setOnClickListener(View.OnClickListener {
                 view -> login()
